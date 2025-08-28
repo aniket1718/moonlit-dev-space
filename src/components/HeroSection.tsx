@@ -21,10 +21,10 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="animate-float">
           <h1 className="hero-text font-bold mb-6 leading-tight">
-            Alex Morgan
+            Aniket Kaware
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-muted-foreground mb-8">
-            Full-Stack Web Developer
+            UIUX Designer
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
             Crafting modern, responsive web applications with cutting-edge technologies. 
