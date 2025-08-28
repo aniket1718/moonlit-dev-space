@@ -54,7 +54,7 @@ const HeroSection = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-12">
           <a 
-            href="https://github.com" 
+            href="https://github.com/aniket1718" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 rounded-full border border-border hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
@@ -70,7 +70,7 @@ const HeroSection = () => {
             <Linkedin className="w-6 h-6" />
           </a>
           <a 
-            href="mailto:alex@example.com"
+            href="mailto:aniketkaware57@gmail.com"
             className="p-3 rounded-full border border-border hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
           >
             <Mail className="w-6 h-6" />

@@ -45,7 +45,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("#home")}
             className="text-2xl font-bold text-foreground hover:text-primary transition-colors"
           >
-            AM
+            Ak
           </button>
 
           {/* Desktop Navigation */}

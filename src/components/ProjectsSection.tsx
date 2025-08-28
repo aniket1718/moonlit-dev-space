@@ -5,39 +5,39 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with modern design, secure payments, and real-time inventory management.",
+    title: "EduQuest Student Performance Predictor",
+    description: "ML-powered student performance prediction system for coaching institutes, featuring data analytics and performance tracking.",
     image: "/placeholder.svg",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+    tech: ["Python", "Machine Learning", "Data Analytics", "Scikit-learn"],
+    github: "https://github.com/aniket1718/Student-Performance-Predictor-for-EduQuest-Coaching",
+    live: "https://github.com/aniket1718/Student-Performance-Predictor-for-EduQuest-Coaching",
     featured: true
   },
   {
-    title: "Task Management App",
-    description: "Collaborative task management tool with real-time updates, team collaboration, and advanced analytics.",
+    title: "Mobile Banking App Design",
+    description: "Modern mobile banking app UI/UX design with intuitive navigation, secure transaction flows, and accessible design principles.",
     image: "/placeholder.svg",
-    tech: ["Vue.js", "Express", "MongoDB", "Socket.io"],
-    github: "https://github.com",
-    live: "https://example.com",
+    tech: ["Figma", "UI/UX Design", "Prototyping", "User Research"],
+    github: "https://github.com/aniket1718",
+    live: "https://github.com/aniket1718",
     featured: true
   },
   {
-    title: "Weather Dashboard",
-    description: "Interactive weather dashboard with location-based forecasts, beautiful visualizations, and PWA support.",
+    title: "Networking Projects",
+    description: "Collection of networking protocols and systems implementation in C/C++, including socket programming and network analysis.",
     image: "/placeholder.svg",
-    tech: ["React", "TypeScript", "Chart.js", "PWA"],
-    github: "https://github.com",
-    live: "https://example.com",
+    tech: ["C", "C++", "Networking", "Socket Programming"],
+    github: "https://github.com/aniket1718/networking",
+    live: "https://github.com/aniket1718/networking",
     featured: false
   },
   {
-    title: "Portfolio Website",
-    description: "Responsive portfolio website with modern animations, dark theme, and optimized performance.",
+    title: "E-Learning Platform Design",
+    description: "Comprehensive UI/UX design for e-learning platform with interactive course modules and progress tracking.",
     image: "/placeholder.svg",
-    tech: ["Next.js", "Tailwind", "Framer Motion"],
-    github: "https://github.com",
-    live: "https://example.com",
+    tech: ["Figma", "User Research", "Wireframing", "Prototyping"],
+    github: "https://github.com/aniket1718",
+    live: "https://github.com/aniket1718",
     featured: false
   }
 ];

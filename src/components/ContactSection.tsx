@@ -7,8 +7,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "alex@example.com",
-      href: "mailto:alex@example.com"
+      value: "aniketkaware57@gmail.com",
+      href: "mailto:aniketkaware57@gmail.com"
     },
     {
       icon: Phone,
@@ -28,7 +28,7 @@ const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/aniket1718",
       color: "hover:text-foreground"
     },
     {
@@ -111,7 +111,7 @@ const ContactSection = () => {
               <Button 
                 size="lg"
                 className="glow-button bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold"
-                onClick={() => window.open('mailto:alex@example.com', '_blank')}
+                onClick={() => window.open('mailto:aniketkaware57@gmail.com', '_blank')}
               >
                 Send Message
               </Button>
