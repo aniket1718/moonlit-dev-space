@@ -2,7 +2,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Code, Database, Globe, Smartphone } from "lucide-react";
 
-
 const skills = [
   { category: "Frontend", icon: Globe, techs: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue.js"] },
   { category: "Backend", icon: Database, techs: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis"] },
@@ -17,26 +16,20 @@ const AboutSection = () => {
         <h2 className="section-title text-center mb-16">About Me</h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div className="flex flex-col items-center md:items-start">
-            <div className="mb-6">
-              <img 
-                src="/lovable-uploads/4e9028e2-7519-4392-bb45-dd39b8ef95ad.png" 
-                alt="Aniket Kaware" 
-                className="w-48 h-48 rounded-full object-cover border-4 border-primary/20"
-              />
-            </div>
-            <h3 className="text-2xl font-semibold mb-6 text-foreground text-center md:text-left">
-              Passionate UI/UX Designer & Developer
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 text-foreground">
+              Passionate Developer & Problem Solver
             </h3>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6 text-center md:text-left">
-              Just starting new things in the world of UI/UX design and development. My journey 
-              is focused on creating beautiful, user-friendly interfaces and learning the latest 
-              design trends and technologies that make digital experiences memorable.
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+              With over 5 years of experience in web development, I specialize in creating 
+              scalable, user-friendly applications that solve real-world problems. My journey 
+              started with a curiosity about how websites work, and it has evolved into a 
+              passion for building exceptional digital experiences.
             </p>
-            <p className="text-muted-foreground text-lg leading-relaxed text-center md:text-left">
-              I'm excited to explore new design challenges, build innovative solutions, and 
-              grow my skills in both design and development. Every project is an opportunity 
-              to learn something new and create something amazing.
+            <p className="text-muted-foreground text-lg leading-relaxed">
+              I believe in writing clean, maintainable code and staying up-to-date with 
+              the latest technologies. When I'm not coding, you can find me contributing 
+              to open-source projects or exploring new frameworks and tools.
             </p>
           </div>
           

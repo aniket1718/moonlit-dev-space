@@ -13,13 +13,13 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 8999062024",
-      href: "tel:+918999062024"
+      value: "+1 (555) 123-4567",
+      href: "tel:+15551234567"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Ambajogai, Maharashtra",
+      value: "San Francisco, CA",
       href: "#"
     }
   ];
